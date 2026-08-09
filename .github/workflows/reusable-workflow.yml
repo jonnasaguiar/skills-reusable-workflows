@@ -1,11 +1,11 @@
 name: Reusable Workflow
-
+## Alteração do tipo de gatilho
 on:
   workflow_call:
     inputs:
       node:
-        required:  true
-        type:  string
+        required: true
+        type: string
 jobs: 
 
   build:
